@@ -1,0 +1,66 @@
+.hidden table{
+    visibility: hidden;
+}
+
+.voice-user-name {
+    width: 7%;
+}
+.voice-user-voice {
+    width: 93%;
+}
+
+.styleN .voice-user-name {
+    width: 0%
+}
+.styleN .voice-user-voice {
+    width: 100%
+}
+
+.current-text {
+    text-decoration:underline;
+}
+
+.player-btn, .voice-user-btn {
+    cursor:pointer;
+}
+
+.sinario.voice-user-a-hidden .styleA {
+    visibility: hidden;
+}
+
+.sinario.voice-user-b-hidden .styleB {
+    visibility: hidden;
+}
+
+.sinario.voice-user-c-hidden .styleC {
+    visibility: hidden;
+}
+
+.player-btn:hover,
+.voice-user-btn:hover {
+    opacity: 0.8;
+}
+
+.btn-hidden,
+.player-btn.btn-hidden:hover,
+.voice-user-btn.btn-hidden:hover {
+    opacity: 0.4;
+}
+
+#notFixed {
+    display: none;
+}
+#fixed {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    /*img[usemap="#Map"]*/
+    .fixed {
+        position: fixed;
+        top: 0;
+    }
+    #fixed {
+        display: inline-block;
+    }
+}

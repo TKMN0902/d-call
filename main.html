@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CALL</title>
+
+    <link href="design.css" rel="stylesheet" type="text/css" />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script src="js/lib/soundmanager2-nodebug-jsmin.js"></script>
+    <script>
+        var global = Function("return this")();
+        global.soundManager.url = 'js/lib/swf/';
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!--<script src="js/lib/jquery-1.11.0.min.js"></script>-->
+    <script src="js/lib/jsrender.min.js"></script>
+    <script src="js/lib/underscore-min.js"></script>
+    <script src="js/lib/micro-location.js"></script>
+    <script src="js/main.js"></script>
+
+    <script id="templateSinario" type="text/x-jsrender">
+        {{for voices}}
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="voice-box
+                                                                          {{if type != 'narration' }}
+                                                                          style{{:type}}
+                                                                          {{else}}
+                                                                          styleN
+                                                                          {{/if}}
+                                                                          ">
+            <tr class="
+                 {{if #index == ~root.current }}
+                 current-text
+                 {{/if}}
+                 ">
+                <td valign="top" class="ABC voice-user-name">
+                    {{if type != 'narration' }}
+                    {{:type}}
+                    {{/if}}
+                </td>
+                <td valign="top" class="ABC voice-user-voice">
+                    {{if ~root.language == 'de'}}
+                    {{:de}}
+                    {{else}}
+                    {{:ja}}
+                    {{/if}}
+                </td>
+            </tr>
+        </table>
+        {{/for}}
+    </script>
+
+</head>
+<body><div align="center">
+<table width="1000" border="0" cellpadding="0" cellspacing="0" style="border:1px solid #666666;">
+<tr><td align="center" bgcolor="#c9bc9c">
+
+<img src="img/head.jpg" border="0" usemap="#Map-head">
+
+<table width="800" border="0" cellpadding="0" cellspacing="0" bgcolor="#EAE3D0">
+<tr><td>
+
+<table width="800px" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="400" valign="top" bgcolor="#eae3d0" class="text style3">TOP &gt; <span class="title">---</span></td>
+<td width="400" align="right" valign="top" bgcolor="#eae3d0" class="text"></td>
+</tr>
+<tr>
+<td width="400" valign="top" bgcolor="#eae3d0" class="text style3"><a href="top.html" class="style5">TOPへ戻る</a></td>
+<td width="400" align="right" valign="top" bgcolor="#eae3d0" class="text"></td>
+</tr>
+</table>
+
+<table width="800px" border="0" cellspacing="0" cellpadding="0" bgcolor="#eae3d0">
+<tr>
+<td width="81" bgcolor="#eae3d0"><img src="img/v1-1a.png" border="0"></td>
+<td width="640" valign="bottom" background="img/v1-1b.png" bgcolor="#eae3d0" class="style1"><span class="style7 title">---</span><br>
+  <br></td>
+<td width="79" bgcolor="#eae3d0"><img src="img/v1-1c.png" border="0"></td>
+</tr><tr>
+<td width="81" bgcolor="#eae3d0"><img src="img/v1-2a.png" border="0"></td>
+<td width="640" background="img/v1-2b.png" bgcolor="#eae3d0"><img id="sinario-image" src="img/img.jpg" border="0"></td>
+<td width="79" bgcolor="#eae3d0"><img src="img/v1-2c.png" border="0"></td>
+</tr></table>
+<img class="scroll" src="img/v1-3.png" border="0" usemap="#Map"><!--scrollクラスはスマートフォンだと画面上に固定-->
+<img class="cover" id="notFixed" src="img/v1-3.png" border="0" usemap="#Map"><br>
+<img src="img/v2-1.png" vspace="0" border="0" usemap="#Map2">
+<table width="800" border="0" cellpadding="0" cellspacing="0" bgcolor="#EAE3D0">
+<tr>
+<td width="87"><img src="img/v2-2a.png" border="0"></td>
+<td width="309" valign="top" bgcolor="#FFFFFF" class="styleX">
+  <div id="sinario-de" class="sinario logbox">
+    <!-- ドイツ語会話表示部分 -->
+  </div>
+</td>
+<td width="10"><img src="img/v2-2b.png" border="0"></td>
+<td  width="310" valign="top" bgcolor="#FFFFFF" class="styleX">
+  <div id="sinario-ja" class="sinario logbox">
+    <!-- 日本語会話表示部分 -->
+  </div>
+</td>
+<td width="84">
+<img src="img/v2-2c.png" border="0"></td>
+</tr>
+</table>
+<table background="img/v2-3-2.png" width="800" height="150" border="0" cellpadding="0" cellspacing="0" bgcolor="#EAE3D0">
+<tr>
+<td width="210">&nbsp;</td>
+<td width="41" valign="top" height="20"><a id="voice-user-a" class="voice-user-btn"><img src="img/v2-3-A.png" border="0"></a></td>
+<td width="43" valign="top"><a id="voice-user-b" class="voice-user-btn"><img src="img/v2-3-B.png" border="0"></a></td>
+<td width="43" valign="top"><a id="voice-user-c" class="voice-user-btn"><img src="img/v2-3-C.png" border="0"></a></td>
+<td width="379" align="right" valign="top"><a id="link-description" href="#"><img src="img/v2-3-kaisetsu.png" border="0"></a><a id="link-voca" href="#"><img src="img/v2-3-goi.png" border="0"></a></td>
+<td width="84"></td>
+</tr>
+<tr>
+    <td width="210">&nbsp;</td>
+    <td width="41" valign="top"><a id="size-user-a" class="size-user-btn"><img src="img/v2-3-d.png" border="0"></a></td>
+    <td width="43" valign="top"><a id="size-user-b" class="size-user-btn btn-hidden"><img src="img/v2-3-e.png" border="0"></a></td>
+</tr>
+</table>
+<div align="left" class="text style5"><a href="top.html">TOPへ戻る</a></div>
+<br>
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+<!--
+	<tr>
+    <td width="20" bgcolor="#EAE3D0">&nbsp;</td>
+    <td width="760" bgcolor="#FFFFFF"><img src="img/v3.png" border="0"></td>
+    <td width="20" bgcolor="#EAE3D0">&nbsp;</td>
+</tr>
+
+<tr>
+    <td bgcolor="#EAE3D0">&nbsp;</td>
+    <td bgcolor="#FFFFFF" class="text style5">ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。ビデオスキットの操作説明がはいります。</td>
+    <td bgcolor="#EAE3D0">&nbsp;</td>
+</tr>
+-->
+</table>
+<br>
+<br>
+</td></tr></table>
+</td></tr></table>
+</div>
+
+<map name="Map-head">
+  <area shape="rect" coords="854,9,933,29" >
+<area shape="rect" coords="939,9,987,29" >
+</map>
+<map name="Map">
+<area id="play" class="player-btn" shape="circle" coords="100,39,20" >
+<area id="pause" class="player-btn" shape="circle" coords="149,39,20" >
+<area id="stop" class="player-btn" shape="circle" coords="199,39,20" >
+<area id="prev" class="player-btn" shape="circle" coords="247,39,20" >
+<area id="next" class="player-btn" shape="circle" coords="296,39,20" >
+</map>
+<map name="Map2">
+<area id="show-de" shape="rect" coords="260,57,300,80" >
+<area id="hidden-de" shape="rect" coords="325,57,375,80" >
+<area id="show-ja" coords="580,57,620,80" >
+<area id="hidden-ja" coords="645,57,695,80" >
+</map>
+</body>
+</html>
