@@ -1,0 +1,17 @@
+{
+    "id":"10",
+    "title" : "Video.10 ハンドボール",
+    "sinario" : [
+    {"id":"001","audio":"10_n1.wav","image":"10_n1.png","type":"narration","ja":"エーファは自分の友人を訪ねます。なぜなら、明日重要なハンドボールの試合があるからです。","de":"Eva besucht ihre Freundin, denn morgen haben sie ein wichtiges Handballspiel."},
+{"id":"002","audio":"10_a1.wav","image":"10_a1.png","type":"A","ja":"私たちは土曜日に勝たなくっちゃ。","de":"Wir müssen am Samstag gewinnen."},
+{"id":"003","audio":"10_a2.wav","image":"10_a2.png","type":"A","ja":"あなたは絶対に試合に出なくちゃいけないわ。","de":"Du musst unbedingt mitspielen."},
+{"id":"004","audio":"10_b1.wav","image":"10_b1.png","type":"B","ja":"私だってやりたいわ、でもずっと家にいなさいと言われたのよ。","de":"Ich möchte ja gern mitspielen, aber ich soll zu Hause bleiben."},
+{"id":"005","audio":"10_a3.wav","image":"10_a3.png","type":"A","ja":"ずっと家にいなさいと言われたって？誰がそんなこと言ったの？","de":"Du sollst zu Hause bleiben? Wer sagt das?"},
+{"id":"006","audio":"10_b2.wav","image":"10_b2.png","type":"B","ja":"私の医者。頭痛がして熱があるのよ。だから、ずっと家にいなさいと言われたの。","de":"Meine Ärztin. Ich habe Kopfschmerzen und Fieber. Deshalb soll ich zu Hause bleiben."},
+{"id":"007","audio":"10_a4.wav","image":"10_a4.png","type":"A","ja":"いいじゃない！60分ぐらい、きっとプレーできるわよ。","de":"Komm schon! Sechzig Minuten kannst du bestimmt spielen."},
+{"id":"008","audio":"10_b3.wav","image":"10_b3.png","type":"B","ja":"だめだわ。私にとっては自分の健康の方が試合よりも大切だわ。","de":"Nein, meine Gesundheit ist mir wichtiger als das Spiel."},
+{"id":"009","audio":"10_a5.wav","image":"10_a5.png","type":"A","ja":"つまりやりたくないのね？","de":"Du willst also nicht?"},
+{"id":"010","audio":"10_b4.wav","image":"10_b4.png","type":"B","ja":"違うわ、いいかげん分かってよ。無理なのよ。","de":"Nein, verdammt, ich kann nicht."},
+{"id":"011","audio":"10_a6.wav","image":"10_a6.png","type":"A","ja":"分かったわ。じゃあ、お大事にね！","de":"Schon gut, dann wünsche ich dir gute Besserung!"}   
+   ]
+}

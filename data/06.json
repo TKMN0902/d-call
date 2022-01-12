@@ -1,0 +1,17 @@
+{
+    "id":"06",
+    "title" : "Video.6 レストランで",
+    "sinario" : [
+       {"id":"001","audio":"6_a1.wav","image":"6_a1.png","type":"A","ja":"いらっしゃいませ。何になさいますか？","de":"Guten Abend! Was möchten Sie?"},
+{"id":"002","audio":"6_b1.wav","image":"6_b1.png","type":"B","ja":"大ビールを二杯下さい。","de":"Zwei große Bier bitte!"},
+{"id":"003","audio":"6_c1.wav","image":"6_c1.png","type":"C","ja":"いえ、僕は白ワインをもらうよ。ビールは飲まないんだ。","de":"Nein, ich nehme einen Weißwein. Ich trinke kein Bier."},
+{"id":"004","audio":"6_a2.wav","image":"6_a2.png","type":"A","ja":"それでは、大ビールを一杯と白いワインを一杯ですね。少々お待ちくださいませ！","de":"Also, ein großes Bier und einen weißen Wein. Einen Moment bitte!"},
+{"id":"005","audio":"6_b2.wav","image":"6_b2.png","type":"B","ja":"お腹はすいていないの？","de":"Hast du keinen Hunger?"},
+{"id":"006","audio":"6_c2.wav","image":"6_c2.png","type":"C","ja":"いや、すいてるよ。メニューを下さい。","de":"Doch! Die Speisekarte bitte!"},
+{"id":"007","audio":"6_a3.wav","image":"6_a3.png","type":"A","ja":"はい、どうぞ。","de":"Bitte sehr!"},
+{"id":"008","audio":"6_b3.wav","image":"6_b3.png","type":"B","ja":"では、私はポテト・スープとビーフ・ステーキのサラダ添えを食べるわ。それからアイスを一つ。","de":"Also, ich nehme eine Kartoffelsuppe und ein Rindersteak mit Salat. Und dann ein Eis."},
+{"id":"009","audio":"6_c3.wav","image":"6_c3.png","type":"C","ja":"おい！お前、太っちゃうよ。アイスはやめた方がいいよ！","de":"Hör mal! Du wirst zu dick. Nimm besser kein Eis!"},
+{"id":"010","audio":"6_b4.wav","image":"6_b4.png","type":"B","ja":"私が太っちゃうって？自分はどうなの？","de":"Ich werde zu dick? Und du selbst?"},
+{"id":"011","audio":"6_b5.wav","image":"6_b5.png","type":"B","ja":"お黙り！あんたこそ何も食べない方がいいわよ！","de":"Halt den Mund! Du isst besser nichts!"}
+    ]
+}

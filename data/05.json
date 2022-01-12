@@ -1,0 +1,22 @@
+{
+    "id":"05",
+    "title" : "Video.5 ヒッチハイク",
+    "sinario" : [
+       {"id":"001","audio":"5_n1.wav","image":"5_n1.png","type":"narration","ja":"ウーヴェはヒッチハイクでカッセルへ行くつもりです。","de":"Uwe möchte per Anhalter nach Kassel fahren. "},
+{"id":"002","audio":"5_n2.wav","image":"5_n2.png","type":"narration","ja":"その時、彼は友人に出会います。","de":"Da trifft er seinen Freund."},
+{"id":"003","audio":"5_a1.wav","image":"5_a1.png","type":"A","ja":"おはよう。どこへ行くの？","de":"Morgen! Wohin fährst du denn?"},
+{"id":"004","audio":"5_b1.wav","image":"5_b1.png","type":"B","ja":"カッセルだよ。","de":"Nach Kassel."},
+{"id":"005","audio":"5_a2.wav","image":"5_a2.png","type":"A","ja":"本当かい？僕もだよ。","de":"Wirklich? Ich auch."},
+{"id":"006","audio":"5_b2.wav","image":"5_b2.png","type":"B","ja":"じゃあ一緒に行こうよ。","de":"Dann fahren wir doch zusammen!"},
+{"id":"007","audio":"5_a3.wav","image":"5_a3.png","type":"A","ja":"うん、いい考えだ。ここでもう長く待っているの？","de":"Ja, tolle Idee. Wartest du hier schon lange?"},
+{"id":"008","audio":"5_b3.wav","image":"5_b3.png","type":"B","ja":"それほどでもない。３時間だ。","de":"Es geht. Drei Stunden."},
+{"id":"009","audio":"5_a4.wav","image":"5_a4.png","type":"A","ja":"ほら。あの赤い車が停まるよ。","de":"Da, das rote Auto hält."},
+{"id":"010","audio":"5_c1.wav","image":"5_c1.png","type":"C","ja":"君たちはどこへ行きたいの？","de":"Wohin möchtet ihr denn fahren?"},
+{"id":"011","audio":"5_a5.wav","image":"5_a5.png","type":"A","ja":"カッセルだよ。","de":"Nach Kassel."},
+{"id":"012","audio":"5_c2.wav","image":"5_c2.png","type":"C","ja":"君たちは運がいいね。僕はベルリンに行くところなんだ。来なさい！","de":"Ihr habt Glück. Ich fahre nach Berlin. Kommt!"},
+{"id":"013","audio":"5_c3.wav","image":"5_c3.png","type":"C","ja":"君たち何をしてるの？学生？","de":"Was macht ihr denn? Seid ihr Studenten?"},
+{"id":"014","audio":"5_a6.wav","image":"5_a6.png","type":"A","ja":"いや、まだだよ。","de":"Nein, noch nicht."},
+{"id":"015","audio":"5_b4.wav","image":"5_b4.png","type":"B","ja":"今は先ずドイツ語を勉強して、それから機械工学を専攻するんだ。君は？","de":"Jetzt lernen wir zuerst Deutsch, und dann studieren wir Maschinenbau. Und du?"},
+{"id":"016","audio":"5_c4.wav","image":"5_c4.png","type":"C","ja":"私はベルリンで経済学を専攻してるんだ。","de":"Ich studiere in Berlin Ökonomie."}
+    ]
+}

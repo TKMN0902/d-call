@@ -1,0 +1,18 @@
+{
+    "id":"08",
+    "title" : "Video.8 電話",
+    "sinario" : [
+     {"id":"001","audio":"8_n1.wav","image":"8_n1.png","type":"narration","ja":"エーファとクラウディアが電話で話しています。","de":"Eva und Klaudia telefonieren miteinander."},
+{"id":"002","audio":"8_a1.wav","image":"8_a1.png","type":"A","ja":"ねえ、今晩は何をする？","de":"Du, was machst du heute Abend?"},
+{"id":"003","audio":"8_b1.wav","image":"8_b1.png","type":"B","ja":"まだ分からない。時間あるよ。","de":"Ich weiß es noch nicht. Ich habe Zeit."},
+{"id":"004","audio":"8_b2.wav","image":"8_b2.png","type":"B","ja":"彼氏は今日来ないよ。彼のお父さんが遊びに来てるから。","de":"Mein Freund kommt heute nicht. Sein Vater ist zu Besuch."},
+{"id":"005","audio":"8_a2.wav","image":"8_a2.png","type":"A","ja":"喫茶店に行こうか？","de":"Gehen wir ins Café?"},
+{"id":"006","audio":"8_a3.wav","image":"8_a3.png","type":"A","ja":"私の彼氏も今日は来ないよ。彼のお母さんの誕生日だから。","de":"Mein Freund kommt heute auch nicht. Seine Mutter hat Geburtstag."},
+{"id":"007","audio":"8_b3.wav","image":"8_b3.png","type":"B","ja":"もしかしたら新しい同僚のペートラもいっしょに行くかも。","de":"Vielleicht geht unsere neue Kollegin Petra auch mit."},
+{"id":"008","audio":"8_b4.mp3“,“image":"8_b4.png","type":"B","ja":"彼女に電話できる？","de":"Kannst du sie anrufen?"},
+{"id":"009","audio":"8_a4.wav","image":"8_a4.png","type":"A","ja":"分かった、すぐ電話するよ。彼女の番号を教えて！","de":"Gut, ich rufe sie gleich an. Gib mir mal ihre Nummer!"},
+{"id":"010","audio":"8_b5.wav","image":"8_b5.png","type":"B","ja":"えーと、６-２４-６５-７８。","de":"Moment, sechs - vierundzwanzig - fünfundsechzig - achtundsiebzig."},
+{"id":"011","audio":"8_a5.wav","image":"8_a5.png","type":"A","ja":"いつ、どこで待ち合わせしようか？","de":"Wann und wo treffen wir uns?"},
+{"id":"012","audio":"8_b6.wav","image":"8_b6.png","type":"B","ja":"そうね、７時半に喫茶店で。","de":"Sagen wir, um halb acht im Café."}
+    ]
+}

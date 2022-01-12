@@ -1,0 +1,15 @@
+{
+    "id":"12",
+    "title" : "Video.12 ペンギン",
+    "sinario" : [
+       {"id":"001","audio":"12_n1.wav","image":"12_n1.png","type":"narration","ja":"ぜひともお話ししなければならないことがあります。","de":"Ich muss Ihnen unbedingt etwas erzählen."},
+{"id":"002","audio":"12_n2.wav","image":"12_n2.png","type":"narration","ja":"ある日、私は一人の男に出会いました。その男はペンギンを連れて散歩していたのです。","de":"Einmal traf ich einen Mann. Der ging mit einem Pinguin spazieren."},
+{"id":"003","audio":"12_n3.wav","image":"12_n3.png","type":"narration","ja":"私を見かけた時に、彼は私に尋ねました。","de":"Als er mich sah, fragte er mich."},
+{"id":"004","audio":"12_a1.wav","image":"12_a1.png","type":"A","ja":"私はどうしたらいいでしょうか？彼は非常に退屈しています。","de":"Was soll ich nur machen? Er langweilt sich so."},
+{"id":"005","audio":"12_b1.wav","image":"12_b1.png","type":"B","ja":"彼を動物園へ連れていったらいかがですか？彼はきっと動物園が気に入りますよ。","de":"Bringen Sie ihn doch in den Zoo! Der gefällt ihm bestimmt."},
+{"id":"006","audio":"12_n4.wav","image":"12_n3.png","type":"narration","ja":"しかし、翌日私はまたその男とそのそのペンギンに出会ったのです。","de":"Aber am nächsten Tag traf ich den Mann und den Pinguin wieder."},
+{"id":"007","audio":"12_b2.wav","image":"12_b2.png","type":"B","ja":"ペンギンを動物園へ連れて行くべきだと言ったでしょう。","de":"Ich habe Ihnen doch gesagt, Sie sollen Ihren Pinguin in den Zoo bringen."},
+{"id":"008","audio":"12_a2.wav","image":"12_a2.png","type":"A","ja":"動物園には昨日もう行きました。","de":"Im Zoo waren wir gestern schon."},
+{"id":"009","audio":"12_a3.wav","image":"12_a3.png","type":"A","ja":"今日は映画に行きます。","de":"Heute gehen wir ins Kino."}
+    ]
+}

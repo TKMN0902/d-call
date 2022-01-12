@@ -1,0 +1,15 @@
+{
+    "id":"16",
+    "title" : "Video.16 込み入った話",
+    "sinario" : [
+       {"id":"001","audio":"16_a1.wav","image":"16_a1.png","type":"A","ja":"お母さん、休暇にペーターと旅行に行ってもいい？","de":"Mama, darf ich mit Peter in den Ferien wegfahren?"},
+{"id":"002","audio":"16_b1.wav","image":"16_b1.png","type":"B","ja":"ダメよ、そんなこと許せません。あなたはまだ１６歳なのよ。","de":"Nein, das kann ich nicht erlauben. Du bist erst sechzehn Jahre alt."},
+{"id":"003","audio":"16_a2.wav","image":"16_a2.png","type":"A","ja":"でも、ペーターの妹もまだ１６なのに、彼氏と旅行に行ってもいいんだって。","de":"Aber Peters Schwester ist auch erst sechzehn, und die darf mit ihrem Freund wegfahren."},
+{"id":"004","audio":"16_b2.wav","image":"16_b2.png","type":"B","ja":"彼女の両親がそんなことを許すなんて私には想像できないわ。","de":"Ich kann mir nicht vorstellen, dass ihre Eltern so etwas erlauben."},
+{"id":"005","audio":"16_b3.wav","image":"16_b3.png","type":"B","ja":"あんたたちはそもそもどこに泊まるつもりなの？ユース？","de":"Wo wollt ihr überhaupt schlafen? In der Jugendherberge?"},
+{"id":"006","audio":"16_a3.wav","image":"16_a3.png","type":"A","ja":"ううん、テントに泊まる。一番安いから。","de":"Nein, wir zelten. Das ist am billigsten."},
+{"id":"007","audio":"16_b4.wav","image":"16_b4.png","type":"B","ja":"まあ！お父さんがそれを聞いたら気絶するわ。","de":"Mein Gott! Wenn Papa das hört, fällt er in Ohnmacht."},
+{"id":"008","audio":"16_b5.wav","image":"16_b5.png","type":"B","ja":"ダメよ、心配でそんなことは許せないわ。","de":"Nein! Ich hätte Angst, dir so etwas zu erlauben."},
+{"id":"009","audio":"16_a4.wav","image":"16_a4.png","type":"A","ja":"なんて親なんだろう。","de":"Was habe ich nur für Eltern?"}
+    ]
+}

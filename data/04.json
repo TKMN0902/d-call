@@ -1,0 +1,22 @@
+{
+    "id":"04",
+    "title" : "Video.4 学生同士の会話",
+    "sinario" : [
+			{"id":"001","audio":"4_a1.wav","image":"4_a1.png","type":"A","ja":"この席はまだあいていますか？","de":"Ist dieser Platz noch frei?"},
+			{"id":"002","audio":"4_b1.wav","image":"4_b1.png","type":"B","ja":"ええ、どうぞ。","de":"Ja, bitte!"},
+			{"id":"003","audio":"4_a2.wav","image":"4_a2.png","type":"A","ja":"ありがとう。","de":"Danke."},
+			{"id":"004","audio":"4_b2.wav","image":"4_b2.png","type":"B","ja":"日本人ですか？","de":"Bist du Japanerin?"},
+			{"id":"005","audio":"4_a3.wav","image":"4_a3.png","type":"A","ja":"ええ。","de":"Ja."},
+			{"id":"006","audio":"4_b3.wav","image":"4_b3.png","type":"B","ja":"ドイツでは何をしてるんですか？","de":"Was machst du denn in Deutschland?"},
+			{"id":"007","audio":"4_a4.wav","image":"4_a4.png","type":"A","ja":"私、ドイツ語を勉強してます。","de":"Ich lerne Deutsch."},
+			{"id":"008","audio":"4_b4.wav","image":"4_b4.png","type":"B","ja":"で、もうどのぐらいここに来てるんですか？","de":"Und wie lange bist du schon hier?"},
+			{"id":"009","audio":"4_a5.wav","image":"4_a5.png","type":"A","ja":"二ヶ月です。","de":"Zwei Monate."},
+			{"id":"010","audio":"4_b5.wav","image":"4_b5.png","type":"B","ja":"まだ二ヶ月なの？ドイツ語がもう本当に上手ですね。","de":"Erst zwei Monate. Du sprichst aber schon gut Deutsch."},
+			{"id":"011","audio":"4_a6.wav","image":"4_a6.png","type":"A","ja":"ゆっくり話して下さい！","de":"Langsam bitte!"},
+			{"id":"012","audio":"4_b6.wav","image":"4_b6.png","type":"B","ja":"ドイツ語がもう上手ですね。","de":"Du sprichst schon gut Deutsch."},
+			{"id":"013","audio":"4_a7.wav","image":"4_a7.png","type":"A","ja":"そう思いますか？「こんにちは！私はあなたを愛してる。こちらは誰ですか？あなたは誰を愛してるの？さようなら」でもこれでおしまい。","de":"Meinst du? „Guten Tag! Ich liebe dich. Wer ist das? Wen liebst du? Auf Wiedersehen.“ Aber das ist alles."},
+			{"id":"014","audio":"4_b7.wav","image":"4_b7.png","type":"B","ja":"英語、話せますか？","de":"Sprichst du Englisch?"},
+			{"id":"015","audio":"4_a8.wav","image":"4_a8.png","type":"A","ja":"いや、残念だけど。","de":"Nein, leider nicht."},
+			{"id":"016","audio":"4_b8.wav","image":"4_b8.png","type":"B","ja":"それは残念だね。僕、日本語できないよ。","de":"Schade, ich kann kein Japanisch."}
+    ]
+}

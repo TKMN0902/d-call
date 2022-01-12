@@ -1,0 +1,17 @@
+{
+    "id":"14",
+    "title" : "Video.14 刑事物",
+    "sinario" : [
+       {"id":"001","audio":"14_n1.wav","image":"14_n1.png","type":"narration","ja":"クラインさんは仕事から家に帰ってきます。彼の妻はテレビを見ています。","de":"Herr Klein kommt von der Arbeit nach Hause. Seine Frau sieht fern."},
+{"id":"002","audio":"14_a1.wav","image":"14_a1.png","type":"A","ja":"どうしたの？病気なの？","de":"Was ist denn los? Bist du krank?"},
+{"id":"003","audio":"14_b1.wav","image":"14_b1.png","type":"B","ja":"いいえ、とても元気よ。でも、この映画はとてもはらはらさせるの。","de":"Nein, es geht mir sehr gut. Aber der Film ist so spannend."},
+{"id":"004","audio":"14_a2.wav","image":"14_a2.png","type":"A","ja":"ちょっと、何時か分かってる？","de":"Sag mal, weißt du, wie spät es ist?"},
+{"id":"005","audio":"14_b2.wav","image":"14_b2.png","type":"B","ja":"ねえ、ちょっと聞いて、殺人者は彼の妻の弟なのよ。","de":"Du, hör mal, der Mörder ist der Bruder seiner Frau."},
+{"id":"006","audio":"14_a3.wav","image":"14_a3.png","type":"A","ja":"どの殺人者？そもそも何の話をしてるの？","de":"Welcher Mörder? Wovon redest du eigentlich?"},
+{"id":"007","audio":"14_b3.wav","image":"14_b3.png","type":"B","ja":"これよ。この映画のことよ。","de":"Na, davon. Von dem Film."},
+{"id":"008","audio":"14_b4.wav","image":"14_b4.png","type":"B","ja":"あのね、彼女の弟の娘は、彼がどこに住んでいるか知らないのよ。","de":"Übrigens, die Tochter ihres Bruders weiß nicht, wo er wohnt."},
+{"id":"009","audio":"14_a4.wav","image":"14_a4.png","type":"A","ja":"いい加減にしろよ。僕は推理映画が嫌いなんだ。","de":"Schluss jetzt! Ich mag keine Krimis."},
+{"id":"010","audio":"14_a5.wav","image":"14_a5.png","type":"A","ja":"７時１０分だ。お腹がペコペコだ。","de":"Es ist zehn nach sieben, und ich habe Hunger."},
+{"id":"011","audio":"14_b5.wav","image":"14_b5.png","type":"B","ja":"私もよ。冷蔵庫から何か持ってきて！","de":"Ich auch. Hol doch etwas aus dem Kühlschrank!"}
+    ]
+}

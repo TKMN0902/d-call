@@ -1,0 +1,15 @@
+{
+    "id":"07",
+    "title" : "Video.7 部屋探し",
+    "sinario" : [
+        {"id":"001","audio":"7_n1.wav","image":"7_n1.png","type":"narration","ja":"クラインさんは自分の家族のために新しい住居を探しています。","de":"Herr Klein sucht für seine Familie eine neue Wohnung."},
+{"id":"002","audio":"7_n2.wav","image":"7_n2.png","type":"narration","ja":"シュミットさんが彼にある１つの住居を案内します。","de":"Frau Schmitt zeigt ihm eine."},
+{"id":"003","audio":"7_a1.wav","image":"7_a1.png","type":"A","ja":"お客様に申し上げます。この家はとても静かです。子供も犬もおりません。","de":"Ich sage Ihnen, dieses Haus ist sehr ruhig. Keine Kinder, keine Hunde."},
+{"id":"004","audio":"7_a2.wav","image":"7_a2.png","type":"A","ja":"この住宅はお気に召しますか？","de":"Gefällt Ihnen die Wohnung?"},
+{"id":"005","audio":"7_b1.wav","image":"7_b1.png","type":"B","ja":"ええ、とても気に入っていますよ。","de":"Ja, sie gefällt mir sehr gut."},
+{"id":"006","audio":"7_a3.wav","image":"7_a3.png","type":"A","ja":"では、さっそくここにサインして下さい。","de":"Dann unterschreiben Sie doch gleich hier!"},
+{"id":"007","audio":"7_b2.wav","image":"7_b2.png","type":"B","ja":"待って下さい！私はこの住宅をまず妻に見せなければなりません。あと、うちの子供たちにも。","de":"Warten Sie! Ich muss die Wohnung zuerst meiner Frau zeigen. Und meinen Kindern."},
+{"id":"008","audio":"7_a4.wav","image":"7_a4.png","type":"A","ja":"奥さんに？子供さんに？","de":"Ihrer Frau? Ihren Kindern?"},
+{"id":"009","audio":"7_b3.wav","image":"7_b3.png","type":"B","ja":"心配いりません。実は、うちの子はとてもおとなしいし、犬が嫌いです。","de":"Keine Sorge! Wissen Sie, meine Kinder sind sehr ruhig und mögen keine Hunde."}
+    ]
+}

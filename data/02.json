@@ -1,0 +1,14 @@
+{
+    "id":"02",
+    "title" : "Video.2 会社で",
+    "sinario" : [
+			{"id":"001","audio":"2_a1.wav","image":"2_a1.png","type":"A","ja":"ヴォルフさん、私は疲れたわ。一休みしましょうよ！","de":"Frau Wolf, ich bin müde. Machen wir eine Pause!"},
+			{"id":"002","audio":"2_b1.wav","image":"2_b1.png","type":"B","ja":"ちょっと社員食堂に行ってきたらどうですか？私は一人で仕事を続けますから。","de":"Gehen Sie doch kurz in die Kantine! Ich arbeite allein weiter."},
+			{"id":"003","audio":"2_a2.wav","image":"2_a2.png","type":"A","ja":"シュミットさん、このコーヒーはさめているわよ。","de":"Herr Schmitt, der Kaffee ist kalt."},
+			{"id":"004","audio":"2_c1.wav","image":"2_c1.png","type":"C","ja":"コーヒーがどうかしましたか？","de":"Wie ist der Kaffee?"},
+			{"id":"005","audio":"2_a3.wav","image":"2_a3.png","type":"A","ja":"さめているのよ。","de":"Er ist kalt."},
+			{"id":"006","audio":"2_c2.wav","image":"2_c2.png","type":"C","ja":"あっ、申し訳ありません。","de":"Oh, Entschuldigung!"},
+			{"id":"007","audio":"2_a4.wav","image":"2_a4.png","type":"A","ja":"シュミットさん、今度はコーヒーは熱いのだけれど、残念ながらこのミルクはすっぱくなっているのよ。","de":"Herr Schmitt, der Kaffee ist jetzt heiß, aber die Milch ist leider sauer."},
+			{"id":"008","audio":"2_c3.wav","image":"2_c3.png","type":"C","ja":"重ね重ね申し訳ありません。","de":"Entschuldigen Sie vielmals!"}
+    ]
+}

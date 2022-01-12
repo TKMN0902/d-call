@@ -1,0 +1,126 @@
+{
+    "id":"01",
+    "title" : "Video.1 初対面",
+    "sinario" : [
+        {
+            "id":"001",
+	          "audio":"1_n1.wav",
+            "image":"1_n1.png",
+            "type":"narration",
+            "ja": "ハナコは福岡出身ですが、今はフランクフルトに住み、そこで働いています。",
+            "de": "Hanako kommt aus Fukuoka, aber sie wohnt und arbeitet jetzt in Frankfurt."
+        },
+        {
+            "id":"002",
+            "audio":"1_a1.wav",
+            "image":"1_a1.png",
+            "type":"A",
+            "ja": "すみません、ドイツ語を話しますか？",
+            "de": "Entschuldigung, sprechen Sie Deutsch?"
+        },
+        {
+            "id":"003",
+            "audio":"1_b1.wav",
+            "image":"1_b1.png",
+            "type":"B",
+            "ja":"まあ、少し話せます",
+            "de": "Ja, etwas."
+        },
+        {
+            "id":"004",
+            "audio":"1_a2.wav",
+            "image":"1_a2.png",
+            "type":"A",
+            "ja":"中国の方ですか？",
+            "de": "Sind Sie aus China?"
+        },
+        {
+            "id":"005",
+            "audio":"1_b2.wav",
+            "image":"1_b2.png",
+            "type":"B",
+            "ja":"いいえ。",
+            "de": "Nein."
+        },
+        {
+            "id":"006",
+            "audio":"1_a3.wav",
+            "image":"1_a3.png",
+            "type":"A",
+            "ja":"すると、どこからいらっしゃいましたか？",
+            "de": "Und woher kommen Sie?"
+        },
+        {
+            "id":"007",
+            "audio":"1_b3.wav",
+            "image":"1_b3.png",
+            "type":"B",
+            "ja":"福岡です。",
+            "de": "Aus Fukuoka."
+        },
+        {
+            "id":"008",
+            "audio":"1_a4.wav",
+            "image":"1_a4.png",
+            "type":"A",
+            "ja":"ああ、それは興味深いですね。福岡って、どこにあるんですか？",
+            "de": "Oh, das ist interessant. Wo liegt das denn?"
+        },
+        {
+            "id":"009",
+            "audio":"1_b4.wav",
+            "image":"1_b4.png",
+            "type":"B",
+            "ja":"日本にあります。",
+            "de": "In Japan."
+        },
+        {
+            "id":"010",
+            "audio":"1_a5.wav",
+            "image":"1_a5.png",
+            "type":"A",
+            "ja":"ドイツ語が本当にお上手ですね。",
+            "de": "Sie sprechen aber gut Deutsch."
+        },
+        {
+            "id":"011",
+            "audio":"1_b5.wav",
+            "image":"1_b5.png",
+            "type":"B",
+            "ja":"ありがとうございます。",
+            "de": "Danke."
+        },
+        {
+            "id":"012",
+            "audio":"1_a6.wav",
+            "image":"1_a6.png",
+            "type":"A",
+            "ja":"ところで、私はパウル・シュナイダーと申します。お名前は何とおっしゃいますか？",
+            "de": "Übrigens, ich heiße Paul Schneider. Und wie heißen Sie?"
+        },
+        {
+            "id":"013",
+            "audio":"1_b6.wav",
+            "image":"1_b6.png",
+            "type":"B",
+            "ja":"タナカ、ハナコ・タナカです。",
+            "de": "Tanaka. Hanako Tanaka."
+        },
+        {
+            "id":"014",
+            "audio":"1_a7.wav",
+            "image":"1_a7.png",
+            "type":"A",
+            "ja":"もう一度おっしゃってください。",
+            "de": "Wie bitte?"
+        },
+        {
+            "id":"015",
+            "audio":"1_b7.wav",
+            "image":"1_b7.png",
+            "type":"B",
+            "ja":"タナカ、ハナコ・タナカです。",
+            "de": "Tanaka. Hanako Tanaka."
+        }
+    ]
+}

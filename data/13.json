@@ -1,0 +1,13 @@
+{
+    "id":"13",
+    "title" : "Video.13 戦争",
+    "sinario" : [
+      {"id":"001","audio":"13_n1.wav","image":"13_n1.png","type":"narration","ja":"戦争が終わったあとで、兵士が帰って来ました。","de":"Als der Krieg aus war, kam der Soldat nach Hause."},
+{"id":"002","audio":"13_n2.wav","image":"13_n2.png","type":"narration","ja":"しかし、彼はパンを持っていませんでした。","de":"Aber er hatte kein Brot."},
+{"id":"003","audio":"13_n3.wav","image":"13_n3.png","type":"narration","ja":"その時、彼は一人の男を見かけました。","de":"Da sah er einen."},
+{"id":"004","audio":"13_n4.wav","image":"13_n4.png","type":"narration","ja":"その男はパンを持っていました。","de":"Der hatte Brot."},
+{"id":"005","audio":"13_n5.wav","image":"13_n5.png","type":"narration","ja":"その男を彼は殴り殺しました。","de":"Den schlug er tot."},
+{"id":"006","audio":"13_n6.wav","image":"13_n6.png","type":"narration","ja":"「人を殴り殺すことは許されない。」と裁判官は言いました。","de":"„Du darfst doch keinen totschlagen“, sagte der Richter."},
+{"id":"007","audio":"13_n7.wav","image":"13_n7.png","type":"narration","ja":"「なぜいけないのですか？」と兵士は尋ねました。","de":"„Warum nicht?“, fragte der Soldat."}
+    ]
+}

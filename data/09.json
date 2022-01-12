@@ -1,0 +1,15 @@
+{
+    "id":"09",
+    "title" : "Video.9 ジョギング",
+    "sinario" : [
+        {"id":"001","audio":"9_n1.wav","image":"9_n1.png","type":"narration","ja":"クラインさんは毎日５キロ走ります。","de":"Frau Klein läuft jeden Tag fünf Kilometer."},
+{"id":"002","audio":"9_n2.wav","image":"9_n2.png","type":"narration","ja":"今日シュミットさんは彼女と一緒に走りたいと思っています。","de":"Heute möchte Frau Schmitt mit ihr laufen."},
+{"id":"003","audio":"9_a1.wav","image":"9_a1.png","type":"A","ja":"どうしたんですか？気分が悪いのですか？","de":"Was haben Sie denn? Ist Ihnen nicht gut?"},
+{"id":"004","audio":"9_b1.wav","image":"9_b1.png","type":"B","ja":"もうこれ以上無理です。私は座らなければなりません。","de":"Ich kann nicht mehr. Ich muss mich setzen."},
+{"id":"005","audio":"9_a2.wav","image":"9_a2.png","type":"A","ja":"でも、私たちはまだ４分の１しか走っていません。","de":"Aber wir sind erst ein Viertel gelaufen."},
+{"id":"006","audio":"9_b2.wav","image":"9_b2.png","type":"B","ja":"申し訳ありませんが、昨日テレビを見すぎました。","de":"Es tut mir leid, aber ich habe gestern zu lange ferngesehen."},
+{"id":"007","audio":"9_a3.wav","image":"9_a3.png","type":"A","ja":"自由時間をテレビの前で過ごしてはいけません。","de":"Sie dürfen Ihre Freizeit nicht vor dem Fernseher verbringen."},
+{"id":"008","audio":"9_b3.wav","image":"9_b3.png","type":"B","ja":"わかってますよ。私は早く寝なければいけません。それが私の問題です。","de":"Ich weiß, ich muss früher ins Bett gehen. Das ist mein Problem!"},
+{"id":"009","audio":"9_a4.wav","image":"9_a4.png","type":"A","ja":"反省は改善への第１歩です。では、続けましょう。","de":"Einsicht ist der erste Weg zur Besserung. Also, weiter!"}
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id":"11",
+    "title" : "Video.11 アインシュタイン教授",
+    "sinario" : [
+       {"id":"001","audio":"11_n1.wav","image":"11_n1.png","type":"narration","ja":"アインシュタイン教授は学生食堂へ食べに行きます。","de":"Professor Einstein geht zum Essen in die Mensa."},
+{"id":"002","audio":"11_n2.wav","image":"11_n2.png","type":"narration","ja":"そこで、グロースさんを見かけます。","de":"Dort sieht er Herrn Groß."},
+{"id":"003","audio":"11_a1.wav","image":"11_a1.png","type":"A","ja":"グロースさん！僕のことをまだ覚えていますか？","de":"Herr Groß! Kennen Sie mich noch?"},
+{"id":"004","audio":"11_b1.wav","image":"11_b1.png","type":"B","ja":"ああ、先生！お元気ですか？","de":"Oh, Herr Professor! Wie geht es Ihnen?"},
+{"id":"005","audio":"11_a2.wav","image":"11_a2.png","type":"A","ja":"ありがとう、おかげさまで！あなたは？","de":"Danke, gut! Und Ihnen?"},
+{"id":"006","audio":"11_b2.wav","image":"11_b2.png","type":"B","ja":"まあまあです。","de":"Es geht."},
+{"id":"007","audio":"11_a3.wav","image":"11_a3.png","type":"A","ja":"今日は何があるのでしょうか？","de":"Was gibt es denn heute?"},
+{"id":"008","audio":"11_b3.wav","image":"11_b3.png","type":"B","ja":"ロースト・ポークのじゃがいも添えです。","de":"Schweinebraten mit Kartoffeln."},
+{"id":"009","audio":"11_a4.wav","image":"11_a4.png","type":"A","ja":"このじゃがいもは味がしないなあ。ちょっとその塩を下さい！","de":"Die Kartoffeln sind aber fade. Geben Sie mir mal das Salz!"},
+{"id":"010","audio":"11_a5.wav","image":"11_a5.png","type":"A","ja":"そして、このローストは革のように堅いよ。この豚はもうお年寄りだったのかなあ。","de":"Und der Braten ist zäh wie Leder. Das Schwein war wohl schon alt."},
+{"id":"011","audio":"11_b4.wav","image":"11_b4.png","type":"B","ja":"運が悪かったですね！","de":"So ein Pech."}
+    ]
+}

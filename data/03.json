@@ -1,0 +1,14 @@
+{
+    "id":"03",
+    "title" : "Video.3 知り合い同士の会話",
+    "sinario" : [
+    	{"id":"001","audio":"3_n1.wav","image":"3_n1.png","type":"narration","ja":"クラインさんとグロースさんは動物園に行きます。","de":"Herr Klein und Herr Groß gehen in den Zoo."},
+		{"id":"002","audio":"3_a1.wav","image":"3_a1.png","type":"A","ja":"僕、のどが渇いています。さあ、何か飲みましょうよ！","de":"Ich habe Durst. Trinken wir doch etwas!"},
+		{"id":"003","audio":"3_a2.wav","image":"3_a2.png","type":"A","ja":"あそこに、小さな喫茶店があります。よさそうですよね。","de":"Dort ist ein kleines Café. Es ist schön, nicht?"},
+		{"id":"004","audio":"3_b1.wav","image":"3_b1.png","type":"B","ja":"まあ、どうかな。","de":"Na ja, ich weiß nicht."},
+		{"id":"005","audio":"3_a3.wav","image":"3_a3.png","type":"A","ja":"あなたは何も飲みたくないんですか？","de":"Möchten Sie denn nichts trinken?"},
+		{"id":"006","audio":"3_b2.wav","image":"3_b2.png","type":"B","ja":"いいえ、僕ものどが渇いていますよ。でも、その喫茶店は高すぎます。","de":"Doch, ich habe auch Durst. Aber das Café ist zu teuer."},
+		{"id":"007","audio":"3_a4.wav","image":"3_a4.png","type":"A","ja":"わかりました。あそこに小さな飲み屋があります。とても安いですよ。","de":"Gut, dort ist eine kleine Kneipe. Sie ist sehr billig."},
+		{"id":"008","audio":"3_b3.wav","image":"3_b3.png","type":"B","ja":"じゃあ、その飲み屋に行きましょう！","de":"OK, gehen wir in die Kneipe!"}
+]
+}

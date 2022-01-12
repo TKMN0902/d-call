@@ -1,0 +1,15 @@
+{
+    "id":"15",
+    "title" : "Video.15 先生の悩み",
+    "sinario" : [
+       {"id":"001","audio":"15_n1.wav","image":"15_n1.png","type":"narration","ja":"先生とその奥さんが授業について話しています。","de":"Der Lehrer und seine Frau sprechen über den Unterricht."},
+{"id":"002","audio":"15_a1.wav","image":"15_a1.png","type":"A","ja":"理解できない。奴らはひどい怠け者だ。","de":"Ich verstehe das nicht. Die Kerle sind stinkfaul."},
+{"id":"003","audio":"15_b1.wav","image":"15_b1.png","type":"B","ja":"どうしたの？","de":"Was ist denn los?"},
+{"id":"004","audio":"15_a2.wav","image":"15_a2.png","type":"A","ja":"奴らに思い知らせてやるぞ。","de":"Denen werde ich es zeigen. "},
+{"id":"005","audio":"15_a3.wav","image":"15_a3.png","type":"A","ja":"この試験を見て！間違いだらけだ。","de":"Sieh mal die Prüfung! Nur Fehler."},
+{"id":"006","audio":"15_b2.wav","image":"15_b2.png","type":"B","ja":"もしかして試験が難しすぎたんじゃないの。","de":"Vielleicht war sie zu schwer?"},
+{"id":"007","audio":"15_a4.wav","image":"15_a4.png","type":"A","ja":"くだらん！奴らに思い知らせてやる。","de":"Unsinn! Den Kerlen werde ich es zeigen."},
+{"id":"008","audio":"15_a5.wav","image":"15_a5.png","type":"A","ja":"よし、こいつとこいつとこいつには点をやらないぞ。","de":"So, dem und dem und der gebe ich keinen Punkt."},
+{"id":"009","audio":"15_b3.wav","image":"15_b3.png","type":"B","ja":"そんなに厳しくしないで！ あなたもいつもそんなに勤勉だったわけじゃないでしょ。","de":"Sei nicht so streng! Du warst auch nicht immer so fleißig."}
+    ]
+}
