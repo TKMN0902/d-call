@@ -1,0 +1,14 @@
+@charset "Shift_JIS";
+.Section1 table {
+}
+.descriptioncss { 
+width: 90%; /* テーブルの横幅 */ 
+border-collapse: collapse; /* 枠線の表示方法 */ 
+border: 1px #cccccc solid; /* テーブル全体の枠線（太さ・色・スタイル） */ 
+} 
+
+.descriptioncss TD { 
+border: 1px #cccccc solid; /* セルの枠線（太さ・色・スタイル） */ 
+padding: 5px; /* セル内の余白 */ 
+} .Section1 .descriptioncss tr {
+}
