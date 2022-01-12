@@ -1,0 +1,60 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #ffffff;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+	color: #000000;
+}
+div.text {
+	padding: 15px 18px;
+	line-height: 18px;
+}
+td.text {
+	padding: 15px 18px;
+	line-height: 18px;
+}
+a {
+	color: #000000;
+	text-decoration: underline;
+}
+.style1 {
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 16px;
+	font-weight: bold;
+}
+.style3 {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+.style5 {font-size: 12px}
+.style7 {font-size: 18px}
+
+td.ABC{
+	padding: 5px 0px 0px 0px;
+	line-height: 18px;
+}
+*.logbox
+      {
+         border: none;
+         width: 295px;
+         height: 390px;
+         padding: 0.5em;
+         overflow: auto;
+      }
+
+.styleX {
+	font-size: 12px;
+	line-height: 16px;
+}
+.styleA {
+	color: #F0A724;
+}
+.styleB {
+	color: #399ACC;
+}
+.styleC {
+	color: #2AB271;
+}
