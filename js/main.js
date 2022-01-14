@@ -261,6 +261,10 @@
 
 }).call(this);
 
+document.documentElement.addEventListener('touchstart', function (e) {
+    if (e.touches.length >= 2) { e.preventDefault(); }
+}, { passive: false });
+
 /*window.addEventListener("resize", function () {
     //this.alert(this.window.devicePixelRatio);
     var controller = this.document.getElementsByClassName('scroll')[0];
