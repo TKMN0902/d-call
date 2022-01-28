@@ -18,7 +18,8 @@
 
       Sinario.prototype.count = 0;
 
-      Sinario.prototype.status = 'unloaded';
+      //Sinario.prototype.status = 'unloaded';
+        Sinario.prototype.status = 'stop';
 
         function Sinario(url) {
         $.ajax({
@@ -48,7 +49,7 @@
               href: 'description/voca' + sinario_no + '.pdf'
             });
             _this.showImage();
-            global.soundManager.onready(function(oStatus) {
+            /*global.soundManager.onready(function(oStatus) {
               if (!oStatus.success) {
                 return false;
               }
@@ -61,13 +62,15 @@
                 });
               });
               _this.status = 'stop';
-            });
+            });*/
           };
         })(this));
         return;
       }
 
-      Sinario.prototype.play = function() {
+        var flags = new Array();
+
+        Sinario.prototype.play = function() {
         var id;
         if (!this.checkCurrent()) {
           this.status = 'stop';
@@ -76,12 +79,14 @@
         }
         if (this.status === 'unloaded') {
           return;
-        }
+            }
+            if (this.status == 'pause') {
+            }
         this.status = 'play';
         this.showImage();
         this.showText();
         id = this.sinario[this.current].id;
-        global.soundManager.play(id, {
+        /*global.soundManager.play(id, {
           onfinish: (function(_this) {
             return function() {
               _this.current++;
@@ -90,28 +95,50 @@
               }
             };
           })(this)
-        });
-      };
+        });*/
+          var aud = document.getElementById('aud' + this.current);
+          aud.play();
+          var nextPlay = (event) => {
+              this.current++;
+              aud = document.getElementById('aud' + this.current);
+              if (this.status === 'play') {
+                  this.play();
+              }
+          }
+            aud.removeEventListener('ended', nextPlay);
+            if (flags[this.current] == null) {
+                flags[this.current] = true;
+                aud.addEventListener('ended', nextPlay);
+            }
+        };
 
       Sinario.prototype.pause = function() {
         var id;
         this.status === 'pause';
         id = this.sinario[this.current].id;
-        global.soundManager.pause(id);
+        //global.soundManager.pause(id);
+          var aud = document.getElementById('aud' + this.current);
+          aud.pause();
       };
 
       Sinario.prototype.stop = function() {
         var id;
         this.status === 'stop';
         id = this.sinario[this.current].id;
-        global.soundManager.stop(id);
+        //global.soundManager.stop(id);
+          var aud = document.getElementById('aud' + this.current);
+          aud.pause();
+          aud.currentTime = 0;
         this.current = 0;
       };
 
       Sinario.prototype.next = function() {
         var id;
         id = this.sinario[this.current].id;
-        global.soundManager.stop(id);
+        //global.soundManager.stop(id);
+          var aud = document.getElementById('aud' + this.current);
+          aud.pause();
+          aud.currentTime = 0;
         this.current++;
         this.play();
       };
@@ -119,7 +146,10 @@
       Sinario.prototype.prev = function() {
         var id;
         id = this.sinario[this.current].id;
-        global.soundManager.stop(id);
+        //global.soundManager.stop(id);
+          var aud = document.getElementById('aud' + this.current);
+          aud.pause();
+          aud.currentTime = 0;
         this.current--;
         this.play();
       };
@@ -261,27 +291,19 @@
 
 }).call(this);
 
-document.documentElement.addEventListener('touchstart', function (e) {
+document.documentElement.addEventListener('touchstart', function (e) {  //ピンチ防止
     if (e.touches.length >= 2) { e.preventDefault(); }
 }, { passive: false });
 
-/*window.addEventListener("resize", function () {
-    //this.alert(this.window.devicePixelRatio);
-    var controller = this.document.getElementsByClassName('scroll')[0];
-    var isFixed = this.document.getElementsByClassName('fixed')[0];
-    var scale = 1.0;
-    if (isFixed != undefined) {
-        //controller.style.scale = scale / this.window.devicePixelRatio;
-        //controller.style.position.top = 0;
-    }
-    else {
-        //controller.style.scale = scale;
-    }
-}, false);
-
-document.body.addEventListener("touchstart", function (e) {
-    e.preventDefault();
-}, { passive: false });
-document.body.addEventListener("touchmove", function (e) {
-    e.preventDefault();
-}, { passive: false });*/
+window.onload = function () {   //audioファイルをhtmlに記述
+    var url = new URL(window.location.href);
+    var params = url.searchParams;
+    var no = params.get('sinario');
+    var aud = document.getElementById('aud');
+    $.getJSON('data/' + no + '.json', (data) => {
+        for (var i = 0; i < data['sinario'].length; i++) {
+            url = './audio/sinario/' + no + '/' + data['sinario'][i].audio;
+            aud.insertAdjacentHTML('beforeend', '<audio id=' + "aud" + i + ' src=' + url + '></audio>');
+        }
+    });
+}
