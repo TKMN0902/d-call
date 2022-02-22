@@ -1,7 +1,4 @@
 (function() {
-  var global;
-
-    global = Function("return this")();
 
   $(function() {
     var Sinario, l, s, sinario_no;
@@ -18,7 +15,6 @@
 
       Sinario.prototype.count = 0;
 
-      //Sinario.prototype.status = 'unloaded';
         Sinario.prototype.status = 'stop';
 
         function Sinario(url) {
@@ -49,20 +45,6 @@
               href: 'description/voca' + sinario_no + '.pdf'
             });
             _this.showImage();
-            /*global.soundManager.onready(function(oStatus) {
-              if (!oStatus.success) {
-                return false;
-              }
-              _.each(_this.sinario, function(data) {
-                console.log('## loading ' + data.audio);
-                global.soundManager.createSound({
-                  id: data.id,
-                  url: './audio/sinario/' + sinario_no + '/' + data.audio,
-                  autoLoad: true
-                });
-              });
-              _this.status = 'stop';
-            });*/
           };
         })(this));
         return;
@@ -70,32 +52,24 @@
 
         var flags = new Array();
 
-        Sinario.prototype.play = function() {
+        Sinario.prototype.play = function() {   //再生ボタンが押された
         var id;
         if (!this.checkCurrent()) {
           this.status = 'stop';
           this.current = 0;
           return false;
         }
-        if (this.status === 'unloaded') {
-          return;
+            if (this.status === 'unloaded') {
+                return;
             }
-            if (this.status == 'pause') {
+            if (this.status == 'play') {
+                var aud = document.getElementById('aud' + this.current);
+                aud.currentTime = 0;
             }
         this.status = 'play';
         this.showImage();
         this.showText();
         id = this.sinario[this.current].id;
-        /*global.soundManager.play(id, {
-          onfinish: (function(_this) {
-            return function() {
-              _this.current++;
-              if (_this.status === 'play') {
-                _this.play();
-              }
-            };
-          })(this)
-        });*/
           var aud = document.getElementById('aud' + this.current);
           aud.play();
           var nextPlay = (event) => {
@@ -105,7 +79,6 @@
                   this.play();
               }
           }
-            aud.removeEventListener('ended', nextPlay);
             if (flags[this.current] == null) {
                 flags[this.current] = true;
                 aud.addEventListener('ended', nextPlay);
@@ -114,7 +87,7 @@
 
       Sinario.prototype.pause = function() {
         var id;
-        this.status === 'pause';
+        this.status = 'pause';
         id = this.sinario[this.current].id;
         //global.soundManager.pause(id);
           var aud = document.getElementById('aud' + this.current);
@@ -123,9 +96,8 @@
 
       Sinario.prototype.stop = function() {
         var id;
-        this.status === 'stop';
+        this.status = 'stop';
         id = this.sinario[this.current].id;
-        //global.soundManager.stop(id);
           var aud = document.getElementById('aud' + this.current);
           aud.pause();
           aud.currentTime = 0;
@@ -135,7 +107,6 @@
       Sinario.prototype.next = function() {
         var id;
         id = this.sinario[this.current].id;
-        //global.soundManager.stop(id);
           var aud = document.getElementById('aud' + this.current);
           aud.pause();
           aud.currentTime = 0;
@@ -146,7 +117,6 @@
       Sinario.prototype.prev = function() {
         var id;
         id = this.sinario[this.current].id;
-        //global.soundManager.stop(id);
           var aud = document.getElementById('aud' + this.current);
           aud.pause();
           aud.currentTime = 0;
@@ -185,10 +155,23 @@
                     $de.height($ja.height());
                 }
             });
+            //字幕自動スクロール
+            var german = document.getElementById('sinario-de');
+            var german2 = document.getElementsByClassName('current-text');
+            var japan = document.getElementById('sinario-ja');
+            var japan2 = document.getElementsByClassName('current-text');
+            if (german2[0] != null && japan2[0] != null) {       //german(japan)が定義されている
+                var r = german.getBoundingClientRect();
+                var r2 = german2[0].getBoundingClientRect();
+                var r3 = japan.getBoundingClientRect();
+                var r4 = japan2[0].getBoundingClientRect();
+                german.scrollTo(0, r2.top - r.top - 100);       //スクロール
+                japan.scrollTo(0, r4.top - r3.top - 100);
+            }
         };
 
-      Sinario.prototype.checkCurrent = function() {
-        if (!(this.current >= 0)) {
+      Sinario.prototype.checkCurrent = function() { //currentが異常な値を示しているか
+        if (this.current < 0) {
           return false;
         }
         return this.current < this.count;
